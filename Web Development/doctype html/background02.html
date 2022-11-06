@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <i class="fa-brands fa-facebook"></i>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .background {
+        /*height: 800px;*/
+        height: 100vh;
+        background-image: url(autumn.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .background-items {
+        color: rgb(20, 149, 59);
+        width: 75%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      /*.navbar {
+        background-color: red;
+        padding: 20px;
+        position: fixed;
+        width: 100%; */
+      /* sticky navbar */
+      .navbar {
+        background-color: red;
+        padding: 20px;
+        position: sticky;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <p>Navigation</p>
+    </div>
+    <div class="background">
+      <div class="background-items">
+        <h1>Heading</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+          iste quisquam repudiandae ipsum quasi unde enim fugiat, labore sunt
+          laudantium, delectus eius saepe inventore optio laborum facere
+          cupiditate recusandae quod.
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </body>
+</html>
+cdnjs.cloudflare.com

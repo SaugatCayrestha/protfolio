@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 32px;
+      }
+      .main-heading {
+        font-size: 32px;
+        letter-spacing: 0.3px;
+        border-top: 2px solid turquoise;
+        display: inline-block;
+        margin-bottom: 32px;
+      }
+      .gallary-items img {
+        height: 250px;
+        width: 100%;
+      }
+      .gallery-items a {
+        display: block;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        /* grid-template-columns: 1fr 2fr 2fr; */
+        gap: 30px;
+      }
+      .gallary-items a {
+        font-size: 28px;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: blue;
+        margin-bottom: 8px;
+      }
+      .gallary-items p {
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="main-heading">Gallery</h2>
+    <div class="gallery">
+      <div class="gallary-items">
+        <a href="autumn.jpg">
+          <img src="autumn.jpg" alt="Image 1" />
+        </a>
+        <a href="autumn.jpg">Image 1</a>
+        <p>Nov 1st 2022</p>
+      </div>
+      <div class="gallary-items">
+        <a href="">
+          <img src="IMG_8472.JPG" alt="Image 2" />
+        </a>
+        <a href="IMG_8472.JPG">Image 2</a>
+        <p>Nov 1st 2022</p>
+      </div>
+      <div class="gallary-items">
+        <a href="IMG_8473.JPG">
+          <img src="IMG_8473.JPG" alt="Image 3" />
+        </a>
+        <a href="autumn.jpg">Image 3</a>
+        <p>Nov 1st 2022</p>
+      </div>
+      <div class="gallary-items">
+        <a href="IMG_8474.JPG">
+          <img src="IMG_8474.JPG" alt="Image 4" />
+        </a>
+        <a href="autumn.jpg">Image 4</a>
+        <p>Nov 1st 2022</p>
+      </div>
+      <div class="gallary-items">
+        <a href="IMG_8475.JPG">
+          <img src="IMG_8475.JPG" alt="Image 5" />
+        </a>
+        <a href="autumn.jpg">Image 5</a>
+        <p>Nov 1st 2022</p>
+      </div>
+      <div class="gallary-items">
+        <a href="IMG_8476.JPG">
+          <img src="IMG_8476.JPG" alt="Image 6" />
+        </a>
+        <a href="autumn.jpg">Image 6</a>
+        <p>Nov 1st 2022</p>
+      </div>
+    </div>
+  </body>
+</html>

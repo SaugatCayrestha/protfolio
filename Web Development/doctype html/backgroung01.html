@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background</title>
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .background {
+        height: 100px;
+
+        background-repeat: no-repeat;
+        background-image: url(autumn.jpg);
+        background-size: cover;
+        position: relative;
+      }
+
+      .background .inner {
+        position: absolute;
+        top: 40px;
+      }
+
+      .inner p {
+        color: aqua;
+        padding: 20px;
+      }
+
+      .inner h1 {
+        color: blue;
+        padding: 0px;
+        font-size: 90px;
+      }
+
+      nav {
+        background-color: brown;
+        padding: 10px;
+        position: sticky;
+      }
+
+      .navbar {
+        background-color: red;
+        padding: 20px;
+        position: sticky;
+        top: 0;
+      }
+
+      .background .items {
+        color: chartreuse;
+        width: 75%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!.. positioning ..>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore natus
+      quasi quae odit cumque explicabo aut ipsam quia nesciunt aspernatur.
+    </p>
+
+    <div class="navbar">
+      <p>Naviation</p>
+    </div>
+
+    <nav>home</nav>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+      <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+      <path
+        d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
+      />
+    </svg>
+  </body>
+</html>
